@@ -2,9 +2,7 @@
 
 Dự án Java triển khai cơ chế xác thực và ủy quyền **JWT (JSON Web Token)** theo chuẩn **RFC 7515 (JWS)** và **RFC 7519 (JWT)**, sử dụng thư viện **Nimbus JOSE + JWT** thay thế cho các thư viện thông thường như `jjwt` hoặc `auth0/java-jwt`.
 
-Được phát triển cho bài giảng môn học **Lập trình Web / An toàn phần mềm / Dịch vụ Web** tại trường **Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)**.
 
----
 
 ## 📌 1. Mục Tiêu Bài Tập
 1. **Khởi tạo và ký JWT:** Sử dụng `SignedJWT`, `JWSHeader` và `JWTClaimsSet` với thuật toán HMAC-SHA256 (`HS256`).
@@ -83,10 +81,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuZ3V5ZW5fdmFuX2EiLCJpc3MiOiJoY21
    - Token sau khi hacker can thiệp: eyJhbGciOiJIUzI1NiIsXYZ...
    - Kết quả xác thực: TỪ CHỐI BẢO MẬT THÀNH CÔNG ✅ (CHỮ KÝ SAI)
 
-===============================================================
-   HOÀN THÀNH BÀI TẬP VÍ DỤ JWT NIMBUS THÀNH CÔNG!
-===============================================================
-```
+
 
 ---
 
